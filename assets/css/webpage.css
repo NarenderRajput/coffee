@@ -19,6 +19,7 @@ img {
 .wrapper .block-1{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     color: white;
     background-color: red;
@@ -35,7 +36,11 @@ img {
 
 .block-1 .div-2 {
     float: right;
-}    
+} 
+
+input::placeholder {
+    color: white;
+}
 
 .block-1 .div-2 a {
     
@@ -47,14 +52,23 @@ img {
 }
 
 .wrapper .block-1 .div-2 input {  
-     
     background-color: red;
     border: 1px solid white;
     color: white;
     border-radius: 5px 5px ;
-    padding: 15px; 
+    padding: 13px 30px; 
     margin-left: 5px;
      
+}
+
+.div-2 input:focus {
+    outline: none;
+}
+
+
+.div-2 i {
+    position: relative;
+    left: -10%;
 }
 
 
@@ -66,9 +80,9 @@ img {
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 30px;
-    font-size: 1.rem;
+    font-size: 1.1rem;
     border-bottom: 1px solid rgb(199, 197, 197);
 }
 .wrapper .block-2 a {
@@ -102,7 +116,7 @@ img {
 .block-3 .div-3 p {
     background-color: rgb(215, 230, 235);
     padding: 8px 15px;
-    width: 100%;
+    width: 555px;
 }
 
 .wrapper .block-3 .div-3 input {
@@ -121,7 +135,7 @@ img {
 .block-3 .div-4 p {
     background-color: rgb(215, 230, 235);
     padding: 8px 15px;
-    width: 100%;
+    width: 555px;
 }
 
 .wrapper .block-3 .div-4 input {
@@ -352,8 +366,10 @@ margin-bottom: 10px;
     padding: 50px;
     background-color: black;
     text-align: center;
+    line-height: 1.5rem;
 
 } 
+
 
 .block-8 .div-14 h2 {
     color: red;
@@ -370,17 +386,18 @@ margin-bottom: 10px;
 
 .block-8 .div-14 input {
     width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .block-8 .div-14 button {
     width: 100%;
     color: white;
     background-color: red;
-    padding: 10px;
+    padding: 20px;
     border: none;
     margin-left: 0;
+    margin-bottom: 20px;
     
     
     
@@ -401,6 +418,7 @@ margin-bottom: 10px;
     width: 100%;
     height: 400px;
     align-items: center;
+    margin-top: 50px;
     
 
 }
@@ -479,20 +497,35 @@ background-color: rgb(247, 242, 242);
 /* End of wrapper-4*/
 
 .bcolor {
-    text-align: center;
-    color: white;
-    width: 100%;
-    height: 200px;
-}
-
-.bcolor input {
     background-color: black;
     color: white;
-    font-size: 20px;
+    padding: 70px;
+    margin: 60px;
+    max-width: 1200px;
+  
+}
+
+.bcolor.one {
+    background-color: black;
+    color: white;
     font-weight: bold;
     width: 85%;
-    padding: 60px;
-    margin: 40px 0px;
+    text-align: center;    
+}
+
+.one p {
+    font-size: 20px;
+}
+
+.one button {
+    background-color: red;
+    color: white;
+    float: right;
+    border: none;
+    padding: 10px 25px;
+    display: inline-block;
+    transform: translateY(-30px);
+
 }
 
 .wrapper-5 {
@@ -506,7 +539,7 @@ background-color: rgb(247, 242, 242);
 }
 
 .wrapper-5 .block-12 {
-    width: 250px;
+    width: 300px;
     margin-top: 60px;
     margin-right: 50px;
     
@@ -514,11 +547,12 @@ background-color: rgb(247, 242, 242);
 .block-12 .div-18 {
     color: rgb(163, 160, 160);
     margin-top: 20px;
+    line-height: 2rem;
     
 }
 
 .wrapper-5 .block-13 {
-    width: 170px;
+    width: 180px;
     margin-top: 60px;
    
     
@@ -528,4 +562,5 @@ background-color: rgb(247, 242, 242);
     color: rgb(163, 160, 160);
     margin-top: 20px;
     width: 150px;
+    line-height: 2rem;
 }
