@@ -17,4 +17,3 @@ This is HTML, CSS and Web Designing.
 # Screenshot
 
 ![Screenshot](./screenshot1.png)
-![Screenshot](./screenshot2.png)
